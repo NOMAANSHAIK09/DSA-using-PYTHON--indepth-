@@ -6,7 +6,7 @@ The goal is to build strong problem-solving skills, algorithmic thinking, and in
 
 📚 Topics Covered
 
-.Foundations
+-Foundations
 
 .Python basics for DSA
 

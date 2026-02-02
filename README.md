@@ -6,65 +6,68 @@ The goal is to build strong problem-solving skills, algorithmic thinking, and in
 
 📚 Topics Covered
 
-Foundations
+.Foundations
 
-Python basics for DSA
+.Python basics for DSA
 
-Recursion & Backtracking
+.Recursion & Backtracking
 
-Time & Space Complexity
+.Time & Space Complexity
 
-Core Data Structures
+.Core Data Structures
 
-Arrays & Strings
+.Arrays & Strings
 
-Stacks & Queues
+.Stacks & Queues
 
-Linked Lists
+.Linked Lists
 
-Trees (Binary Tree, BST)
+.Trees (Binary Tree, BST)
 
-Heaps (Priority Queue)
+.Heaps (Priority Queue)
 
-Graphs (Basics)
+.Graphs (Basics)
 
-Algorithms
+.Algorithms
 
-Searching & Sorting techniques
+.Searching & Sorting techniques
 
-Divide and Conquer
+.Divide and Conquer
 
-Greedy Algorithms
+.Greedy Algorithms
 
-Dynamic Programming
+.Dynamic Programming
 
-backtracking
+.backtracking
 
-Knapsack Problem (0/1 Knapsack)
+.Knapsack Problem (0/1 Knapsack)
 
-Job sequencinng
+.Job sequencinng
 
-Branch and Bound
+.Branch and Bound
 
-Knapsack using Branch & Bound
+.Knapsack using Branch & Bound
 
 🛠 Tech Stack
 
-Language: Python
+.Language: Python
 
 Tools: VS Code, Git, GitHub
 
 🎯 Learning Focus
 
-Writing clean and readable code
+.Writing clean and readable code
 
-Understanding why an algorithm works
+.Understanding why an algorithm works
 
-Solving problems using optimal approaches
+.Solving problems using optimal approaches
 
-Preparing for internships, placements, and interviews
+.Preparing for internships, placements, and interviews
 
 📌 Status
+
+🚧 Actively learning and updating
+More advanced topics will be added as the course progresses.
 
 🚧 Actively learning and updating
 More advanced topics will be added as the course progresses.

@@ -1,0 +1,194 @@
+1️⃣ Time Complexity
+✅ What is Time Complexity?
+
+Time complexity tells us how the running time of an algorithm grows as the input size increases.
+
+👉 It does NOT measure actual time in seconds
+👉 It measures number of operations
+
+Example:
+for i in range(n):
+    print(i)
+
+
+Loop runs n times
+
+Time Complexity = O(n)
+
+2️⃣ Order of Growth
+✅ What is Order of Growth?
+
+Order of growth describes how fast the time complexity increases when input size n becomes large.
+
+We ignore:
+
+Constants
+
+Smaller terms
+
+Example:
+T(n) = 3n² + 5n + 10
+
+
+Order of growth = n²
+
+So complexity = O(n²)
+
+3️⃣ Asymptotic Notation
+✅ What is Asymptotic Notation?
+
+It is a mathematical way to describe the performance of algorithms for large input sizes.
+
+Types:
+
+Big O (O)
+
+Big Omega (Ω)
+
+Big Theta (Θ)
+
+4️⃣ Big O Notation (Worst Case)
+✅ Definition:
+
+Big O gives the maximum time an algorithm can take.
+
+👉 Focuses on worst-case performance
+
+Example:
+def linear_search(arr, key):
+    for x in arr:
+        if x == key:
+            return True
+    return False
+
+
+Worst case: key not found
+
+Runs n times
+
+Time Complexity = O(n)
+
+Common Big O values:
+Algorithm	Big O
+Constant	O(1)
+Linear	O(n)
+Nested loop	O(n²)
+Binary Search	O(log n)
+5️⃣ Big Omega (Ω) Notation (Best Case)
+✅ Definition:
+
+Big Omega gives the minimum time an algorithm can take.
+
+👉 Focuses on best case
+
+Example (Linear Search):
+
+Best case: element found at first position
+
+Only 1 comparison
+
+So:
+
+Best Case = Ω(1)
+
+6️⃣ Big Theta (Θ) Notation (Average/Exact Case)
+✅ Definition:
+
+Big Theta represents the tight bound
+It shows when best case and worst case are same
+
+Example:
+for i in range(n):
+    print(i)
+
+
+Always runs n times
+
+Best = Worst = n
+
+So:
+
+Θ(n)
+
+7️⃣ Performance Summary
+Notation	Meaning	Case
+Big O	Upper Bound	Worst
+Big Ω	Lower Bound	Best
+Big Θ	Tight Bound	Average/Exact
+Example Summary (Linear Search):
+
+Best: Ω(1)
+
+Worst: O(n)
+
+Average: Θ(n)
+
+8️⃣ Space Complexity
+✅ What is Space Complexity?
+
+Space complexity measures how much extra memory an algorithm uses.
+
+Includes:
+
+Variables
+
+Data structures
+
+Recursion stack
+
+Example 1: Constant Space
+def add(a, b):
+    return a + b
+
+
+Uses only a few variables
+
+Space Complexity = O(1)
+
+Example 2: Linear Space
+def create_list(n):
+    arr = []
+    for i in range(n):
+        arr.append(i)
+
+
+Uses list of size n
+
+Space Complexity = O(n)
+
+Example 3: Recursive Space
+def factorial(n):
+    if n == 0:
+        return 1
+    return n * factorial(n-1)
+
+
+Uses recursion stack
+
+Space Complexity = O(n)
+
+9️⃣ Time vs Space Trade-Off
+
+Sometimes:
+
+Faster algorithm uses more memory
+
+Slower algorithm uses less memory
+
+Example:
+
+Hash table search → O(1) time, more space
+
+Linear search → O(n) time, less space
+
+🔑 Key Points to Remember (Exam Gold ⭐)
+
+Time complexity → speed
+
+Space complexity → memory
+
+Big O → worst case
+
+Ignore constants & lower terms
+
+Use asymptotic notation for large inputs

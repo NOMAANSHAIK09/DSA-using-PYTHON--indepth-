@@ -1,73 +1,58 @@
-# DSA-using-PYTHON--indepth-
-🧠 Data Structures & Algorithms (Python)
+# 🧠 DSA using Python – In Depth
 
-This repository documents my structured learning of Data Structures and Algorithms using Python, covering concepts up to Knapsack Problem and Branch & Bound techniques.
-The goal is to build strong problem-solving skills, algorithmic thinking, and interview readiness.
+This repository documents my structured learning journey of **Data Structures and Algorithms using Python**, covering concepts up to the **Knapsack Problem and Branch & Bound techniques**.
 
-📚 Topics Covered
+The goal of this repository is to build **strong problem-solving skills**, **algorithmic thinking**, and **interview readiness** for internships and placements.
 
--Foundations
+---
 
-.Python basics for DSA
+## 📚 Topics Covered
 
-.Recursion & Backtracking
+### 🔹 Foundations
+- Python basics for DSA  
+- Recursion & Backtracking  
+- Time & Space Complexity  
 
-.Time & Space Complexity
+### 🔹 Core Data Structures
+- Arrays & Strings  
+- Stacks & Queues  
+- Linked Lists  
+- Trees (Binary Tree, BST)  
+- Heaps (Priority Queue)  
+- Graphs (Basics)  
 
-.Core Data Structures
+### 🔹 Algorithms
+- Searching & Sorting techniques  
+- Divide and Conquer  
+- Greedy Algorithms  
+- Dynamic Programming  
+- Backtracking  
+- Knapsack Problem (0/1 Knapsack)  
+- Job Sequencing  
+- Branch and Bound  
+- Knapsack using Branch & Bound  
 
-.Arrays & Strings
+---
 
-.Stacks & Queues
+## 🛠 Tech Stack
+- **Language:** Python  
+- **Tools:** VS Code, Git, GitHub  
 
-.Linked Lists
+---
 
-.Trees (Binary Tree, BST)
+## 🎯 Learning Focus
+- Writing clean and readable code  
+- Understanding *why* an algorithm works  
+- Solving problems using optimal approaches  
+- Preparing for internships, placements, and interviews  
 
-.Heaps (Priority Queue)
+---
 
-.Graphs (Basics)
-
-.Algorithms
-
-.Searching & Sorting techniques
-
-.Divide and Conquer
-
-.Greedy Algorithms
-
-.Dynamic Programming
-
-.backtracking
-
-.Knapsack Problem (0/1 Knapsack)
-
-.Job sequencinng
-
-.Branch and Bound
-
-.Knapsack using Branch & Bound
-
-🛠 Tech Stack
-
-.Language: Python
-
-Tools: VS Code, Git, GitHub
-
-🎯 Learning Focus
-
-.Writing clean and readable code
-
-.Understanding why an algorithm works
-
-.Solving problems using optimal approaches
-
-.Preparing for internships, placements, and interviews
-
-📌 Status
-
-🚧 Actively learning and updating
+## 📌 Status
+🚧 **Actively learning and updating**  
 More advanced topics will be added as the course progresses.
 
-🚧 Actively learning and updating
-More advanced topics will be added as the course progresses.
+---
+
+## 🤝 Contributions
+This repository is for personal learning, but suggestions and improvements are always welcome.

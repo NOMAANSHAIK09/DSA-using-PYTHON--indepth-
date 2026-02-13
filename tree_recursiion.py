@@ -1,3 +1,5 @@
+# when a function calls it self more than ones
+
 def calculate(n):
     if n > 0:
         calculate(n - 1)
@@ -7,3 +9,4 @@ def calculate(n):
 
 
 calculate(3)
+

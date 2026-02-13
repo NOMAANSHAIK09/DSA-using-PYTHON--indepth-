@@ -1,9 +1,12 @@
+# when a function call itself first means after base condition , no other statement before it
+
 def calculate(n):
     if n > 0:
-        print(f" input {n}")
-        print(f" cal value {calculate(n - 1)}")
+       
+        print(calculate(n - 1))
         k = n ** 2
-        print(f" k value {k}")
+        print(k)
 
 
 calculate(4)
+
